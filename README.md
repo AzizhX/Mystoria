@@ -14,7 +14,7 @@ It is an adventure game that puts the player in the role of a robot exploring th
 
 
 
-This game is still under development, and I appreciate any comment or advice :)
+This game is still under development :)
 
 ##### Development, game art, and story by Azizah Alshammari.
 ### Tools used: 
