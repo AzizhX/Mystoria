@@ -4119,7 +4119,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetMirrored,
 		C3.Plugins.System.Cnds.Else,
 		C3.Plugins.System.Cnds.OnLayoutStart,
-		C3.Plugins.Audio.Acts.Play
+		C3.Plugins.Audio.Acts.Play,
+		C3.Plugins.Sprite.Cnds.IsOverlapping
 	];
 };
 self.C3_JsPropNameTable = [
@@ -4138,7 +4139,10 @@ self.C3_JsPropNameTable = [
 	{Particles: 0},
 	{Sprite: 0},
 	{ShadowLight: 0},
-	{Music: 0}
+	{Music: 0},
+	{WelcomeSign: 0},
+	{Cat: 0},
+	{Box: 0}
 ];
 }
 
@@ -4242,7 +4246,9 @@ self.C3_ExpressionFuncs = [
 		() => "Walking",
 		() => "Idle",
 		() => 0,
-		() => ""
+		() => "",
+		() => "wake",
+		() => "sleep"
 ];
 
 
